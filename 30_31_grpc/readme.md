@@ -1,3 +1,3 @@
 # to generate proto
 
-protoc --go_out=. --go-grpc_out=. todo.proto --go-grpc_opt=require_unimplemented_servers=false
+protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative todo/todo.proto --go-grpc_opt=require_unimplemented_servers=false
