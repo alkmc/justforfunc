@@ -132,5 +132,5 @@ var Tasks_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "todo.proto",
+	Metadata: "todo/todo.proto",
 }
